@@ -14,12 +14,17 @@ public class Tests
     [Test]
     public async Task Test1()
     {
-         var playwright = await Playwright.CreateAsync();
-         await using  var browser =  await playwright.Chromium.LaunchAsync( new BrowserTypeLaunchOptions{
+        var playwright = await Playwright.CreateAsync();
+        await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+        {
             Headless = false,
-         });
-         var page = await browser.NewPageAsync();
-         await page.GotoAsync("https://playwright.dev/dotnet/");
-         await page.ClickAsync("text=.NET");
+        });
+        var page = await browser.NewPageAsync();
+        await page.GotoAsync("https://playwright.dev/dotnet/");
+        await page.ClickAsync("text=.NET");
+        await page.ScreenshotAsync(new PageScreenshotOptions
+        {
+            Path = "screenshot.png"
+        });
     }
 }
