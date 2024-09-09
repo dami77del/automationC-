@@ -55,10 +55,10 @@ Simply configure the desired browser in the test setup.
    ```bash
    dotnet test PlaywrightDemo.csproj --filter "FullyQualifiedName~PlaywrightDemo.NunitPlaywright.Test1"
 
- 
 2. **🖥️ Running Tests in Headed Mode**:
    ```bash
       $env:HEADED=1 dotnet test PlaywrightDemo.csproj
+   ```
 
 
 
