@@ -18,9 +18,10 @@ This repository contains an **automated testing framework** built using **C#**, 
 ## 🌍 Cross-browser Testing
 You can run tests in different browsers:
 
-🦊 Firefox
-🌐 Chromium
-🦁 WebKit
+- 🦊 Firefox
+- 🌐 Chromium
+-  🦁 WebKit
+
 Simply configure the desired browser in the test setup.
 
 ## 🛠️ Prerequisites
