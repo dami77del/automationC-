@@ -1,6 +1,6 @@
 # 🚀 C# Automation Framework with Playwright and NUnit
 
-![Test Automation]([./assets/test-automation.png](https://github.com/dami77del/automationC-/blob/develop/PlaywrightDemo/assets/test-automation.png)) <!-- Coloca tu imagen aquí -->
+![Test Automation](https://github.com/dami77del/automationC-/blob/develop/PlaywrightDemo/assets/test-automation.png)
 
 This repository contains an **automated testing framework** built using **C#**, **Playwright**, and **NUnit**. The goal is to automate end-to-end testing of web applications with a streamlined approach that reduces boilerplate code and improves maintainability.
 
@@ -37,4 +37,13 @@ Simply configure the desired browser in the test setup.
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
-   
+ 
+2. **Install Playwright:**:
+   ```bash
+   dotnet tool install --global Microsoft
+
+
+
+
+
+
