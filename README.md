@@ -40,9 +40,40 @@ Simply configure the desired browser in the test setup.
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
  
-2. **Install Playwright:**:
+2. **Restore dependencies**:
    ```bash
-   dotnet tool install --global Microsoft
+   dotnet restore
+
+3. **Install Playwright**:
+   ```bash
+   dotnet tool install --global Microsoft.Playwright.CLI playwright install
+
+---
+## 🧑‍💻**Running Tests**:
+
+1. **🧪 Running a Specific Test**:
+   ```bash
+   dotnet test PlaywrightDemo.csproj --filter "FullyQualifiedName~PlaywrightDemo.NunitPlaywright.Test1"
+
+ 
+2. **🖥️ Running Tests in Headed Mode**:
+   ```bash
+      $env:HEADED=1 dotnet test PlaywrightDemo.csproj
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+   
+
 
 
 
