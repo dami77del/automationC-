@@ -20,11 +20,16 @@ public class Tests
             Headless = false,
         });
         var page = await browser.NewPageAsync();
-        await page.GotoAsync("https://playwright.dev/dotnet/");
-        await page.ClickAsync("text=.NET");
+        await page.GotoAsync("http://eaapp.somee.com/");
+        await page.ClickAsync("text=Login");
         await page.ScreenshotAsync(new PageScreenshotOptions
         {
             Path = "screenshot.png"
         });
+        await page.FillAsync("#UserName", "admin");
+        await page.FillAsync("#Password","password");
+        await page.ClickAsync("text=Log in");
+        var isExist = await page.Locator("text='Employee Details'").IsVisibleAsync();
+        Assert.IsTrue(isExist);
     }
 }

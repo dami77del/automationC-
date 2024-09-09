@@ -1,0 +1,3 @@
+# Run the specific test "Test1" in the class "NunitPlaywright" within the namespace "PlaywrightDemo" 
+# using the project file PlaywrightDemo.csproj
+dotnet test PlaywrightDemo.csproj --filter "FullyQualifiedName~PlaywrightDemo.NunitPlaywright.Test1"

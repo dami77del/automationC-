@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/V4jaK2qSg=",
+  "dgSpecHash": "1Z0aTWU/GeA=",
   "success": true,
-  "projectFilePath": "C:\\document\\Documents\\workspace\\AUTOMATION\\WEB\\C#\\PlaywrightDemo\\PlaywrightDemo.csproj",
+  "projectFilePath": "C:\\Users\\damid\\Documents\\workspace\\automation\\WEB\\C#\\automationC-\\PlaywrightDemo\\PlaywrightDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damid\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\damid\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -10,6 +10,8 @@
     "C:\\Users\\damid\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\damid\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\damid\\.nuget\\packages\\microsoft.playwright\\1.46.0\\microsoft.playwright.1.46.0.nupkg.sha512",
+    "C:\\Users\\damid\\.nuget\\packages\\microsoft.playwright.nunit\\1.46.0\\microsoft.playwright.nunit.1.46.0.nupkg.sha512",
+    "C:\\Users\\damid\\.nuget\\packages\\microsoft.playwright.testadapter\\1.46.0\\microsoft.playwright.testadapter.1.46.0.nupkg.sha512",
     "C:\\Users\\damid\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
     "C:\\Users\\damid\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
     "C:\\Users\\damid\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
