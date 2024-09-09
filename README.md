@@ -49,7 +49,8 @@ Simply configure the desired browser in the test setup.
    dotnet tool install --global Microsoft.Playwright.CLI playwright install
 
 ---
-## 🧑‍💻**Running Tests**:
+
+## 🧑‍💻 Running Tests
 
 1. **🧪 Running a Specific Test**:
    ```bash
